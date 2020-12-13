@@ -1,0 +1,60 @@
+body{
+	background: #171717;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+.Postcard4Geek{
+	background: white;
+	width: 500px;
+	height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;	
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+input{
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+img{
+	max-width: 60px;
+	float: right;
+}
+.Postcard4Geek-header{
+	overflow: hidden;
+}
+.Postcard4Geek-body{
+	overflow: hidden;
+}
+.body-derecho{
+	float: right;
+	width: 50%;
+}
+.body-derecho input{
+	display: block;
+}
+.body-izquierdo{
+	float: left;
+	width: 50%;
+}
+.Postcard4Geek-footer{
+	padding: 10px;
+	text-align: center;
+}
+.Postcard4Geek-footer input [type=submit]{
+		border: none;
+		border-bottom: 1px gray solid; 
+}
+.Postcard4Geek-body input [type=text]{
+		border: none;
+		border-bottom: 1px gray solid; 
+		width: 240px;
+		margin-bottom: 10px
+		padding: 5px;
+}
